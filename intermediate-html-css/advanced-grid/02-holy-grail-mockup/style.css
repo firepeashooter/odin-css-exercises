@@ -10,7 +10,7 @@ ul{
 
 .container {
   display: grid;
-  grid-template: 0.3fr 0.2fr 4fr 0.3fr / 1fr 3fr;
+  grid-template: 0.3fr 0.2fr 4fr 0.3fr / 0.8fr 4fr;
   gap:4px;
   text-align: center;
 }
@@ -54,6 +54,9 @@ ul{
 .sidebar {
   grid-row: 2 / 4;
   grid-column: 1 / 2;
+
+  display: grid;
+  gap: 20px;
   background-color: #C50208;
 }
 
@@ -71,6 +74,17 @@ ul{
   color: black;
   font-size: 16px;
   font-weight: normal;
+}
+
+.photo{
+  display: grid;
+  align-items: center;
+
+}
+.side-content{
+  display: grid;
+  align-items: center;
+  margin-top: 40px;
 }
 
 .nav {
